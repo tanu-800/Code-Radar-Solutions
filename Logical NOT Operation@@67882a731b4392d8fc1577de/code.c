@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main(){
-    int x,y;
+    int x;
     scanf("%d",&x);
-    scanf("%d",&y);
     if(x!=>0){
         printf('True');
     }
