@@ -6,9 +6,7 @@ int main(){
     if(x||y>0){
         printf("True");
     }
-    else if(x||y<0){
-        printf("False");
-    }
+   
     else{
         printf("False");
     }
