@@ -1,8 +1,15 @@
 #include<stdio.h>
 int main(){
-    int age;
-    printf("enter your age:");
+    char name[90];
+    int age[80];
+    char hobby[67];
+    scanf("%ch",&name);
     scanf("%d",&age);
-    printf("Age:%d",age);
-    return 0;
+    scanf("%c",&hobby);
+    printf("Name: %c",name);
+    printf("Age: %c",age);
+     printf("Hobby: %c",hobby);
+     return 0;
+    
+
 }
