@@ -4,7 +4,7 @@ int x,y;
 scanf("%d",&x);
 scanf("%d",&y);
 if(x>0&&y<0||x==y==0){
-    printf(True);
+    printf("True");
 }
 else{
     printf("False");
